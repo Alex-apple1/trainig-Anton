@@ -9,7 +9,7 @@ public class CalculatorTest {
     @Test
     public void calculatorDigitTest() {
         Assert.assertEquals(Calc.getScreenDigits(), 10);
-        Assert.fail("Error message");
+        Assert.fail("Error message pop up!");
 
     }
 
